@@ -1,7 +1,7 @@
 # project uts mobile
 <h1>STORYBOARD UTS PEMEROGRAMAN MOBILE</h1>
 <p align="justify">
-    Di sini saya ingin membuat sebuah Aplikasi e commerce yang Memfokuskan <br> KE pembeliian Pakaian Berikut Adalah Storyboard Dari saya.
+    Di sini saya ingin membuat sebuah Aplikasi e commerce yang Memfokuskan <br> pembeliian Pakaian, yang Memiliki Fitur Fitur Menarik.
 </p>
-<h2>Storyboard saya</h2>
+<h2> Berikut Adalah Storyboard Dari saya</h2>
 <img src="" width="300" height="auto" title="Dari page Ke satu Samapai KE 4">
