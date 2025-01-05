@@ -44,7 +44,7 @@
 <pre>
 <code>
 # Clone repositori
-git clone https://github.com/yourusername/fashion-and-flacko.git
+https://github.com/akmal-hafiz/projectutsmobile/tree/main
 
 # Buka proyek di Android Studio
 
