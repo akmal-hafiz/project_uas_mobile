@@ -13,5 +13,5 @@
 
 <h1> berikut showcase project e commerce saya </h1>
  <video width="640" height="360" controls loop>
-        <source src="" type="project mobile>
+        <source src="Screen Recording 2025-01-06 012441.mp4" type="project mobile>
     </video>
