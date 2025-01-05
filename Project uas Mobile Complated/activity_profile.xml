@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profile">
+
+
+
+
+
+    <!-- Judul -->
+
+
+
+
+    <!-- Header Section -->
+    <RelativeLayout
+        android:id="@+id/headerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/Yellow"
+        android:padding="16dp"
+        android:layout_alignParentTop="true">
+
+
+
+
+        <TextView
+            android:id="@+id/titleprofile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Fashion And Flacko"
+            android:textColor="@color/white"
+            android:textSize="13pt"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,TextContrastCheck" />
+
+
+        <ImageView
+            android:id="@+id/backprofile"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/arrow_circle_left"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="0dp"
+            tools:ignore="ContentDescription,RtlHardcoded" />
+
+        <!-- User Photo -->
+        <ImageView
+            android:id="@+id/imgUserPhoto"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            android:src="@drawable/vektormen"
+            android:scaleType="centerCrop"
+            android:background="@drawable/circle_background"
+
+            android:contentDescription="User Photo"
+            tools:ignore="NotSibling" />
+
+        <!-- User Name -->
+        <TextView
+            android:id="@+id/txtUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgUserPhoto"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:text="User Name"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- User Email -->
+        <TextView
+            android:id="@+id/txtUserEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtUserName"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="4dp"
+            android:text="user@example.com"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <!-- Settings Button -->
+    <ImageButton
+        android:id="@+id/btnEditProfile"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:src="@drawable/ic_settings"
+        android:contentDescription="Edit Profile Button" />
+
+    <!-- User ID -->
+    <TextView
+        android:id="@+id/txtUserID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/headerLayout"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:text="User ID: #12345678"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <!-- Additional Profile Info -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtUserID"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/txtOrderHistory"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Order History"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:drawableStart="@drawable/ic_order_history"
+            android:drawablePadding="8dp"
+            android:paddingVertical="8dp"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true" />
+
+        <TextView
+            android:id="@+id/txtWishlist"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Wishlist"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:drawableStart="@drawable/ic_wishlist"
+            android:drawablePadding="8dp"
+            android:paddingVertical="8dp"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true" />
+    </LinearLayout>
+
+    <!-- Bottom Navigation -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomnav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/white"
+        app:itemIconTint="@color/black"
+        app:itemTextColor="@color/black"
+        app:menu="@menu/menu"
+        tools:ignore="VisualLintBottomNav" />
+
+</RelativeLayout>
