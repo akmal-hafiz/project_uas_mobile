@@ -11,7 +11,7 @@
 
 
 
-<h1> ini adalah ui nya</h1>
+<h1> berikut showcase project e commerce saya </h1>
  <video width="640" height="360" controls loop>
-        <source src="https://raw.githubusercontent.com/username/repository/branch/assets/video.mp4" type="video/mp4">
+        <source src="" type="project mobile>
     </video>
