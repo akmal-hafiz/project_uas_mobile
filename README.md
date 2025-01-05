@@ -16,12 +16,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Video Looping di GitHub Pages</title>
+    <title>Showcase project mobile</title>
 </head>
 <body>
     <video width="640" height="360" controls loop>
-        <source src="https://raw.githubusercontent.com/username/repository/branch/assets/video.mp4" type="video/mp4">
-        Browser Anda tidak mendukung elemen video.
+        <source src="" type="video/mp4">
     </video>
 </body>
 </html>
