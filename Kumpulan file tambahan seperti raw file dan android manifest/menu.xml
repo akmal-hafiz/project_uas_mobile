@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        tools:ignore="MenuTitle"
+        android:id="@+id/navhome"
+        android:title="Home"
+        android:icon="@drawable/navhome" />
+
+    <item
+        tools:ignore="MenuTitle"
+        android:id="@+id/navexplore"
+        android:title="Explore"
+        android:icon="@drawable/navexplore" />
+
+    <item
+        tools:ignore="MenuTitle"
+        android:id="@+id/navbag"
+        android:title="Bag"
+        android:icon="@drawable/navshoppingbag" />
+
+    <item
+        tools:ignore="MenuTitle"
+        android:id="@+id/navprofile"
+        android:title="Profile"
+        android:icon="@drawable/navaccount" />
+</menu>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="Enter" type="id" />
+    <item name="password" type="id" />
+    <item name="username" type="id" />
+    <item name="LOGIN" type="id" />
+    <item name="login" type="id" />
+    <item name="frameImage2" type="id" />
+    <item name="frameImage3" type="id" />
+    <item name="frameImage4" type="id" />
+    <item name="frameImage5" type="id" />
+    <item name="frameImage6" type="id" />
+    <item name="explImage2" type="id" />
+    <item name="explImage3" type="id" />
+</resources>
