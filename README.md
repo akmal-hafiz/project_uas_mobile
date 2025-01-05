@@ -11,7 +11,17 @@
 
 
 
-<h1> berikut showcase project e commerce saya </h1>
- <video width="640" height="360" controls loop>
-        <source src="Screen Recording 2025-01-06 012441.mp4" type="project mobile>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Looping di GitHub Pages</title>
+</head>
+<body>
+    <video width="640" height="360" controls loop>
+        <source src="https://raw.githubusercontent.com/username/repository/branch/assets/video.mp4" type="video/mp4">
+        Browser Anda tidak mendukung elemen video.
     </video>
+</body>
+</html>
