@@ -5,3 +5,6 @@
 </p>
 <h2> Berikut Adalah Storyboard Dari saya</h2>
 <img src="Screenshot 2024-11-06 003130.png" width="300" height="auto" title="Dari page Ke satu Samapai KE 4">
+
+<h2> ini adalah ui nya</h2>
+<img src="" width="300" height="auto" title="Dari page Ke satu Samapai KE 4">
