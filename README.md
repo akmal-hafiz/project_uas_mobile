@@ -63,8 +63,7 @@ https://github.com/akmal-hafiz/projectutsmobile/tree/main
     <li><strong>src/main/AndroidManifest.xml</strong>: Berisi konfigurasi dan deklarasi aktivitas aplikasi.</li>
 </ul>
 
-<h2>Cara Menggunakan</h2>
-<p>Setelah aplikasi diinstal, pengguna dapat langsung menjelajah katalog produk, menambahkan barang ke keranjang belanja, dan melakukan checkout melalui sistem pembayaran yang tersedia.</p>
+
 
 
 </body>
