@@ -7,7 +7,7 @@
 <img src="Screenshot 2024-11-06 003130.png" width="300" height="auto" title="Dari page Ke satu Samapai KE 4">
 
 <h2> ini adalah ui nya</h2>
-<img src="Screenshot 2025-01-06 013052.png" width="300" height="auto" title="Dari page Ke satu Samapai KE 4">
+<img src="Screenshot 2025-04-29 220117.png" width="300" height="auto" title="Dari page Ke satu Samapai KE 4">
 
 
 
